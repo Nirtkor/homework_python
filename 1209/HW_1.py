@@ -17,7 +17,3 @@ def line_count(line):
     fin = str(int(u / len(line_split) * 100)) + '%'
     return fin
 
-print(line_count('ABc dbE FRl Ama'))
-print(line_count('NDp Lka nuR vtE'))
-
-
