@@ -1,12 +1,13 @@
 def line_count(line):
     line_split = line.split()
-    u = 0
-    for i in line_split:
-        u_local = 0
-        for k in i:
-            if k.isupper():
-                u_local += 1
-        if u_local > len(i) - u_local:
-            u += 1
-    fin = str(int(u / len(line_split) * 100)) + '%'
-    return fin
+    upper = 0
+    for el_1 in line_split:
+        upper_local = 0
+        for el_2 in el_1:
+            if el_2.isupper():
+                upper_local += 1
+        if upper_local > len(el_1) - upper_local:
+            upper = upper + 1
+    return str(int(upper / len(line_split) * 100)) + '%'
+
+print(line_count('ABc dbE FRl Ama'))
