@@ -9,5 +9,3 @@ def line_count(line):
         if upper_local > len(el_1) - upper_local:
             upper = upper + 1
     return str(int(upper / len(line_split) * 100)) + '%'
-
-print(line_count('ABc dbE FRl Ama'))
