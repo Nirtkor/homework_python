@@ -9,7 +9,7 @@ date_tests = [
     (15, -2, 2007, 0),
     (15, 2, -2007, 0),
     (28, 2, 2005, 1),
-    ]
+]
 
 
 @pytest.mark.parametrize('day, month, year, expect', date_tests)
