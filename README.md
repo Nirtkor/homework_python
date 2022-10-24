@@ -13,4 +13,3 @@
 ![mp4](https://user-images.githubusercontent.com/113105164/197643573-47159166-a013-4e01-8481-256c8c575c34.gif)
 ![mp4](https://user-images.githubusercontent.com/113105164/197643573-47159166-a013-4e01-8481-256c8c575c34.gif)
 ![mp4](https://user-images.githubusercontent.com/113105164/197643573-47159166-a013-4e01-8481-256c8c575c34.gif)
-![mp4](https://user-images.githubusercontent.com/113105164/197643573-47159166-a013-4e01-8481-256c8c575c34.gif)
