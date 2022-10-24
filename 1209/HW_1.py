@@ -1,9 +1,3 @@
-'''
-Написать программу, которая считает процент подстрок, в которых больше заглавных букв.
-На вход подаётся большая строка, подстроки в которой перечислены через пробел. 
-Примеры: 'ABc dbE FRl Ama' -> 50%, 'NDp Lka nuR vtE' -> 25%
-'''
-
 def line_count(line):
     line_split = line.split()
     u = 0
@@ -16,4 +10,3 @@ def line_count(line):
             u += 1
     fin = str(int(u / len(line_split) * 100)) + '%'
     return fin
-
