@@ -11,5 +11,3 @@ def date_verify(day, month, year):
             elif month == 2 and 0 < day < 29:
                 return True
     return False
-
-
