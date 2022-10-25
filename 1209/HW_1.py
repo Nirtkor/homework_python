@@ -3,6 +3,7 @@
 Примеры: 'ABc dbE FRl Ama' -> 50%, 'NDp Lka nuR vtE' -> 25%
 '''
 
+
 def line_count(line):
     line_split = line.split()
     upper = 0
