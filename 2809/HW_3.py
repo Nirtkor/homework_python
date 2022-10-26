@@ -14,5 +14,4 @@ def captain_records(entries, first_date):
         finally:
             opened_file.close()
         return "Captain's diary is done"
-
-print(captain_records(["бля", "сука", "пиздец"], "01-01-2001"))
+        
