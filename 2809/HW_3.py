@@ -11,8 +11,7 @@ def captain_records(entries, first_date):
                 )
         except:
             return "Something is wrong with the records, try again with different data"
-        finally:
-            opened_file.close()
-        return "Captain's diary is done"
+
+    return "Captain's diary is done"
 
 print(captain_records(['я нашел ром', 'ром заканчивается', 'ром закончился'], "01-01-2007"))
