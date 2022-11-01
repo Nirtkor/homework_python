@@ -14,4 +14,5 @@ def captain_records(entries, first_date):
         finally:
             opened_file.close()
         return "Captain's diary is done"
-        
+
+print(captain_records(['я нашел ром', 'ром заканчивается', 'ром закончился'], "01-01-2007" ))
