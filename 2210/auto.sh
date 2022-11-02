@@ -14,12 +14,13 @@ do
         do
             if [[ $try == 3 ]]
             then
-                echo упс, кажется Вас нет в системе 
+                echo упс, кажется Вас нет в системе
+                dt=$(date)
+                echo "$dt $user :(" >> failed_auth
                 exit
             fi
             echo "Введите ваш пароль:"
-            read -s -t 25 pass <&1
-            echo $pass
+            read -s -t 10 pass <&1
             input=$(echo -n $pass | sha512sum)
             pass=($input)
             password="${pass[0]}"
